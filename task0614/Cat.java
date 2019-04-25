@@ -20,7 +20,7 @@ public class Cat {
         }
         printCats();
     }
-
+//Статический метод printCats() должен только выводить на печать переменную cats!!!
     public static void printCats() {
         for (int i = 0; i < 10 ; i++) {
             System.out.println(cats.get(i));
