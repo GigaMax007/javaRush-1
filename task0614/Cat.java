@@ -14,16 +14,18 @@ public class Cat {
     }
 
     public static void main(String[] args) {
-        //напишите тут ваш код
+        for (int i = 0; i <10; i++) {
+            Cat cat = new Cat();
+            cats.add(cat);
+        }
         printCats();
     }
 
     public static void printCats() {
-        //напишите тут ваш код
-        for (int i = 0; i < 10; i++) {
-            Cat cat = new Cat();
-            System.out.println(cats.add(cat));
+        for (int i = 0; i < 10 ; i++) {
+            System.out.println(cats.get(i));
         }
-
     }
+
+    
 }
